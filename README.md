@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Дима Липихин](https://up.htmlacademy.ru/adaptive/32/user/2537303).
-* Наставник: [Андрей Граче](https://htmlacademy.ru/profile/angra).
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
 
 ---
 
