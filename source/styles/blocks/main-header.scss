@@ -10,7 +10,11 @@
 
 @media (min-width: $desktop-width) {
   .main-header {
-    padding: 52px 110px 0;
+    padding: 55px 110px 0;
+  }
+
+  .main-header-catalog {
+    padding-top: 52px;
   }
 
   .main-header--index {
