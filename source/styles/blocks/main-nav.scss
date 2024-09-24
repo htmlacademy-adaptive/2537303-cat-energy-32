@@ -177,7 +177,7 @@
     bottom: 10px;
   }
 
-  .main-nav__catalog--current::after {
+  .main-nav__link--current-catalog::after {
     border: 1px $basic-green solid;
     position: absolute;
     content: "";
@@ -218,7 +218,7 @@
     color: $secondary-color;
   }
 
-  .main-nav__catalog--current::after {
+  .main-nav__link--current-catalog::after {
     width: 170px;
     bottom: 9px;
   }
