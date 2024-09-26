@@ -22,11 +22,10 @@
 .subscribe__title::after {
   width: 100%;
   height: 2px;
-  background-image: linear-gradient(to left, $basic-green 128px, #ffffff 128px);
+  background-image: linear-gradient(to left, $basic-green 108px, #ffffff 108px);
   content: "";
   display: block;
   position: absolute;
-  right: -20px;
   top: 9px;
   z-index: -1;
 }
