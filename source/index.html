@@ -10,13 +10,14 @@
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicons/152.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="styles/common/fonts.scss" as="font" />
   <script src="scripts/index.js" defer>
   </script>
 </head>
 
 <body class="page__body">
   <header class="main-header main-header--index">
-    <nav class="main-nav main-nav--closed">
+    <nav class="main-nav main-nav--closed main-nav--nojs">
       <div class="main-nav__logo-container">
         <a class="main-nav__logo" href="#">
           <picture>
@@ -196,7 +197,7 @@
         <a class="main-footer__logo-academy-link html-academy__link" href="#">
           <span class="html-academy__text">HTML Academy</span>
           <svg class="html-academy__logo" width="27" height="34">
-            <use href="icons/stack.svg#icon-logo-html"></use>
+            <use class="logo" href="icons/stack.svg#icon-logo-html"></use>
           </svg>
         </a>
       </div>

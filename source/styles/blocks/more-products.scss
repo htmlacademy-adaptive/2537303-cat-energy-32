@@ -66,6 +66,15 @@
     width: 170px;
     align-self: center;
     margin-bottom: 23px;
+
+    &::before,
+    &::after {
+      width: 62px;
+      height: 2px;
+      position: absolute;
+      top: 76px;
+      left: 131px;
+    }
   }
 
   .more-products__text {
@@ -85,9 +94,18 @@
 
   .more-products__title {
     margin-bottom: 25px;
-  }
 
-  .more-products__text {
-    margin-bottom: 90px;
+    &::before,
+    &::after {
+      width: 62px;
+      height: 2px;
+      position: absolute;
+      top: 76px;
+      left: 131px;
+    }
+
+    .more-products__text {
+      margin-bottom: 90px;
+    }
   }
 }

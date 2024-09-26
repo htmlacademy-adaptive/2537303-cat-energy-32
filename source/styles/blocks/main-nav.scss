@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+.main-nav--nojs .main-nav__togle {
+  display: none;
+}
+
 .main-nav--closed .main-nav__togle::before {
   width: 24px;
   height: 2px;
@@ -86,6 +90,10 @@
   display: none;
 }
 
+.main-nav--nojs .main-nav__wrapper {
+  display: block;
+}
+
 .main-nav__list {
   background-color: #ffffff;
   width: 320px;
@@ -93,6 +101,12 @@
   padding: 0;
   list-style-type: none;
   position: absolute;
+  flex-wrap: wrap;
+}
+
+
+.main-nav--nojs .main-nav__list {
+  position: static;
 }
 
 .main-nav__item {

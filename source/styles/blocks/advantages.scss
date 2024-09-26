@@ -164,7 +164,7 @@
 
 @media (min-width: $desktop-width) {
   .advantages {
-    padding-top: 73px;
+    padding: 73px 0 52px;
   }
 
   .advantages__container {
@@ -173,9 +173,14 @@
 
   .advantages__list {
     grid-template-columns: 230px 246px 248px 250px;
-    width: 1231px;
+    width: 1232px;
     gap: 0;
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__item {
+    margin-bottom: 52px;
   }
 
   .advantages__item--leaf {
