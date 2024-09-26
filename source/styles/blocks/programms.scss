@@ -106,6 +106,9 @@
 
 .programms__link:hover::after {
   background-image: url("../../icons/icon-right-arrow-long.svg");
+  width: 34px;
+  background-size: 34px;
+  right: -59px;
 }
 
 @media (min-width: $tablet-width) {
